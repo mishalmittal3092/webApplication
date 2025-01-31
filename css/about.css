@@ -4,7 +4,8 @@
     padding: 0;
 }
 body{
-    background-image: url("/");
+    background-image: url("/images/bg.jpeg");
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
