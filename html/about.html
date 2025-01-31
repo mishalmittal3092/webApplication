@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="/css/about.css"> -->
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url("bg.jpeg");
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        a:hover {
+            color: rgb(216, 216, 6);
+        }
+
+        nav {
+            margin: 5px;
+            /* float: left; */
+            display: block;
+            width: 97vw;
+            /* float: right; */
+            border: 4px solid bisque;
+            padding: 5px 0 5px 0;
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+
+        ul {
+            /* width: 100vw; */
+            /* float: right; */
+            /* border: 2px solid blueviolet; */
+            display: inline-block;
+
+        }
+
+        .items {
+            display: inline-block;
+            padding: 5px 10px 5px 10px;
+        }
+
+        a {
+            color: whitesmoke;
+            font-weight: bold;
+            text-decoration: none;
+
+        }
+
+        li img {
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            top: 8px;
+            left: 15px;
+
+
+
+        }
+
+        .item1 {
+            padding-left: 30px;
+
+        }
+
+        .item4 {
+            border-radius: 10px;
+            background-color: rgb(1, 82, 55);
+            color: black;
+
+        }
+
+        .item5 {
+            color: rgb(207, 207, 226);
+            /* background-color: red; */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+
+            <li class="item0 items"><img src="icon1.png" alt=""></li>
+            <li class="item1 items"><a href="">HOME</a></li>
+            <li class="item2 items"><a href="genre.html">GENRE</a></li>
+
+        </ul>
+
+        <ul>
+            <li class="item3 items"><a href="">ABOUT US</a></li>
+            <li class="item4 items"><a href="signInUp.html">SIGN IN</a></li>
+            <li class="item5 items"><a href="signInUp.html" class="item5">SIGN UP</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
