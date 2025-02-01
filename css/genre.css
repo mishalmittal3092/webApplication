@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url("/images/bg.jpeg");
+    background-image: url("https://mishalmittal3092.github.io/webApplication/images/bg.jpeg");
     background-size: cover;
     background-position: center;
 
@@ -23,7 +23,7 @@ body {
 }
 
 /* body {
-    background-image: url("bg.jpeg");
+    background-image: url("https://mishalmittal3092.github.io/webApplicationbg.jpeg");
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -387,4 +387,12 @@ option {
 .item select:hover {
     box-shadow: 0 0 8px 2px rgb(190, 164, 214);
 
+}
+
+@media screen and (max-width:380px) {
+    .recomment {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+    }
+    
 }
